@@ -1086,14 +1086,6 @@ else if (Tab == PLAYERS_TAB)
 
 		 else if (Tab == SOLARDEVELOPER_TAB)
 		 {
-			 if (Globals::SupportRestart == false)
-			 {
-				 if (ImGui::Checkbox("Force version to support manual restart(untested)", &Globals::SupportRestart))
-				 {
-					 Globals::SupportRestart == true;
-					 IsRestartingSupported();
-				 }
-			 }
 			 if (!IsRestartingSupported)
 			 {
 				 if (ImGui::Checkbox("Enable AutoRestart for this version(untested)", &Globals::SupportMoreVersions))

@@ -1622,10 +1622,6 @@ void AFortPlayerController::ClientOnPawnDiedHook(AFortPlayerController* PlayerCo
 						{
 							auto CurrentPlayerState = (AFortPlayerStateAthena*)AllPlayerStates.at(i);
 							std::string PlayerName = CurrentPlayerState->GetPlayerName().ToString();
-							if (CurrentPlayerState->IsBot()) 
-							{
-								// the player is a bot? dont give the vbucks ig.
-							}
 							getResponse(BackendIP + ":" + BackendPort + "/Backend/" + PlayerName +"/incWins");
 						}
 						CreateThread(0, 0, RestartThread, 0, 0, 0);

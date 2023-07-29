@@ -13,7 +13,6 @@ namespace Globals
     extern inline bool bLogProcessEvent = false;
     // extern inline bool bLateGame = false;
     extern inline bool SupportMoreVersions = false;
-    extern inline bool SupportRestart = false;
     extern inline std::atomic<bool> bLateGame(false);
 
     extern inline bool bInfiniteMaterials = false;
