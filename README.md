@@ -7,6 +7,8 @@ AutoRestart/Vbucks on kill/win note: this will not work without this: https://gi
 
 # CREDITS:
 
+Antonio2038 Creator
+
 Zonngster Helper/Tester
 
 xCourtesyxFlushx Helper/Tester
