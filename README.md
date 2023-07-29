@@ -1,9 +1,3 @@
-# Project Reboot 3.0
+# Project Solar
 
-S3-S15
-
-## TODO
-
-- Rewrite picking up code.
-- Rewrite dllmain
-- Move hooking to each class (for example, AFortGameModeAthena::InitHooks).
+AutoRestart/Vbucks on kill/win note: this will not work without this: https://github.com/Antonio0447/Momentum
