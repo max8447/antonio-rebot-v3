@@ -1,9 +1,20 @@
-# Project Reboot 3.0
+# Project Solar
 
-S3-S15
+AutoRestart only supports up to 12.20!
 
-## TODO
 
-- Rewrite picking up code.
-- Rewrite dllmain
-- Move hooking to each class (for example, AFortGameModeAthena::InitHooks).
+AutoRestart/Vbucks on kill/win note: this will not work without this: https://github.com/Antonio0447/Momentum
+
+# CREDITS:
+
+Zonngster Helper/Tester
+
+xCourtesyxFlushx Helper/Tester
+
+Redwine Helper/Tester
+
+Project Solar: https://discord.gg/8hgFKR9psD
+
+Project Reboot V3: https://github.com/Milxnor/Project-Reboot-3.0
+
+NOTE: This has only been tested a few times and works but not 100% in S10+. Please create an issue if any crash/error occurs. or dm me: antonio2038. if you use this source please credit Project Solar.
